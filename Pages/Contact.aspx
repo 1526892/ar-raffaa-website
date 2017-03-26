@@ -7,7 +7,22 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <h2>Contact Us</h2>
+    <div id="glob_content">
 
+        <div id ="title">
+
+        <div id ="formcontact">
+
+            <form>
+                <input type ="text" name="name" placeholder="Name" />
+                <input type ="text" name="email" placeholder="Phone Number" />
+                <input type ="email" name="phone" placeholder="Email" />
+                <textarea name ="message" placeholder="Message"></textarea>
+                <div id ="send"><input type ="submit" name="send" value="send" /></div>
+            </form>
+
+
+        </div>
+        </div>
+    </div>
 </asp:Content>
-
