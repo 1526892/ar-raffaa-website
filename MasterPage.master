@@ -35,9 +35,11 @@
                 <li><a href="WomenWallet.aspx">Women Wallet</a></li>
                 <li><a href="Payment.aspx">Payment</a></li>
                 <li><a href="Contact.aspx">Contact</a></li>
+                <li><a href="Login.aspx">Login/Register</a></li>
 				
 			</ul>
 		</nav>
+
 
         
         <div id ="content">

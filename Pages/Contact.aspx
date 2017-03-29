@@ -2,27 +2,43 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 
-    
-
+   
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <div id="glob_content">
+  
+    <section>
+        
+        <h2>Contact Us</h2>
 
-        <div id ="title">
-
-        <div id ="formcontact">
-
-            <form>
-                <input type ="text" name="name" placeholder="Name" />
-                <input type ="text" name="email" placeholder="Phone Number" />
-                <input type ="email" name="phone" placeholder="Email" />
-                <textarea name ="message" placeholder="Message"></textarea>
-                <div id ="send"><input type ="submit" name="send" value="send" /></div>
-            </form>
-
-
+        <div class ="contactform">
+        <asp:Label ID="Username" runat="server" Text="Username"></asp:Label>
+        <asp:TextBox ID="Namebox" runat="server"></asp:TextBox>
         </div>
+
+        <div class ="contactform">
+        <asp:Label ID="PhoneNumber" runat="server" Text="PhoneNumber"></asp:Label>
+        <asp:TextBox ID="Phonebox" runat="server"></asp:TextBox>
         </div>
-    </div>
+     
+        <div class ="contactform">
+        <asp:Label ID="Email" runat="server" Text="Email"></asp:Label>
+        <asp:TextBox ID="Emailbox" runat="server"></asp:TextBox>
+        </div>
+
+        <div class ="contactform">
+        <asp:Label ID="Message" runat="server" Text="Message"></asp:Label>
+        <textarea id="Messagebox" cols="20" rows="2"></textarea>
+        </div>
+
+        <div class ="contactform">
+        <input id="Submit" type="button" value="SUBMIT" />
+        </div>
+        
+        
+
+    </section>
+
+  
+    
 </asp:Content>

@@ -27,8 +27,9 @@ ul {
     padding: 10px;
     padding-right : 0px;
     overflow: hidden;
+    text-align :center;
     
-    text-align:center;
+   
     
 }
 
@@ -66,17 +67,8 @@ footer {
     display: block;
 }
 
-input, textarea {
-    display : flex;
-    width : 500px;
-    height : 48px;
-    margin-left : 470px;
-}
-	
-send {
-    display : flex;
-    width : 100px;
-    height : 42px;
-    margin-left : 470px;
-    margin-top : 10px;
+#contactform {
+    font-size : 30px;
+    display: block;
+    margin-top : 3px;    
 }
